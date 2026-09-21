@@ -1,0 +1,75 @@
+/* =========================================================
+ * FENÊTRE CONFIGURATION DES ZONES
+ * ========================================================= */
+
+.imz-zone-config {
+    width: 100%;
+    min-width: 500px;
+}
+
+/* Zone contenant les champs */
+.imz-zone-config {
+    max-height: 65vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    padding-right: 12px;
+}
+
+/* Un peu plus d'espace entre les options */
+.imz-zone-config .form-group {
+    margin-bottom: 12px;
+}
+
+/* Titres Zone / Texte */
+.imz-zone-config h3 {
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+/* Champs numériques */
+.imz-zone-config input[type="number"] {
+    min-width: 120px;
+}
+
+/* Curseur d'opacité */
+.imz-zone-config input[type="range"] {
+    width: 100%;
+}
+
+/* =========================================================
+ * FENÊTRE ACTIONS D'UNE ZONE
+ * ========================================================= */
+
+.imz-zone-actions {
+    min-width: 460px;
+}
+
+.imz-zone-actions footer {
+    flex-wrap: nowrap !important;
+}
+
+.imz-zone-actions button.imz-dialog-button {
+    display: inline-flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 6px;
+
+    width: auto !important;
+    min-width: max-content !important;
+
+    white-space: nowrap !important;
+}
+
+.imz-zone-actions button.imz-dialog-button i {
+    flex: 0 0 auto;
+}
+
+.imz-zone-actions button.imz-dialog-button span {
+    display: inline !important;
+    white-space: nowrap !important;
+}

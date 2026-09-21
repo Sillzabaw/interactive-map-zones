@@ -1,0 +1,57 @@
+{
+  "id": "interactive-map-zones",
+  "title": "Interactive Map Zones",
+  "description": "Create interactive polygonal zones on Foundry VTT scenes, customize their appearance, edit their shape, and link them to Journal Entries.",
+  "version": "1.0.0",
+
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.368"
+  },
+
+  "authors": [
+    {
+      "name": "Sillzabaw"
+    }
+  ],
+
+  "url": "https://github.com/Sillzabav/interactive-map-zones",
+
+  "manifest": "https://github.com/Sillzabav/interactive-map-zones/releases/latest/download/module.json",
+
+  "download": "https://github.com/Sillzabav/interactive-map-zones/releases/download/v1.0.0/interactive-map-zones.zip",
+
+  "readme": "README.md",
+
+  "license": "LICENSE",
+
+  "bugs": "https://github.com/Sillzabav/interactive-map-zones/issues",
+
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/interactive-map-zones/assets/cover.webp"
+    }
+  ],
+
+  "esmodules": [
+    "scripts/interactive-map-zones.mjs"
+  ],
+
+  "styles": [
+    "styles/interactive-map-zones.css"
+  ],
+
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}
